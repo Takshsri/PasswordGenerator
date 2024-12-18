@@ -1,0 +1,76 @@
+
+body{
+    background-color: hsl(20,31%,33%,0.6);
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:3em;
+    text-shadow: 4px 8px  hsl(0,6%,0%);
+    color: wheat;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+h1:hover{
+    color: black;
+    text-shadow: none;
+}
+form{
+    text-align: center;
+    max-width: 90%;
+    width: 50%;
+    color: #fff;
+    margin:auto;
+    border: 2px solid black;
+    border-radius:10px ;
+    transition: background-color 1.3s, color 1.3s;
+    cursor: pointer;
+
+}
+
+
+form:hover{
+
+    box-shadow: 4px 8px 8px 8px grey;
+}
+input{
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    border:2px solid white;
+    border-radius:50px ;
+    
+    padding: 10px 20px;
+    
+}
+button{
+    font-size: 2rem;
+    border: none;
+    border-radius:10px ;
+    cursor: pointer;
+
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button, p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 601px) {
+    .form-container {
+        width: 50%;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
